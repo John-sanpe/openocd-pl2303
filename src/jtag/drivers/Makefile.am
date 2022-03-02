@@ -185,6 +185,9 @@ endif
 if XDS110
 DRIVERFILES += %D%/xds110.c
 endif
+if PL2303
+DRIVERFILES += %D%/pl2303.c
+endif
 
 DRIVERHEADERS = \
 	%D%/bitbang.h \
